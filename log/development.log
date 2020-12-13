@@ -5787,3 +5787,2955 @@ Did you mean?  new_user_password_path
     11: 		<nav>
   
 app/views/client/index.html.erb:8
+Started GET "/" for 127.0.0.1 at 2020-12-13 21:49:35 +0530
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 575)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1311ms (Views: 1305.3ms | ActiveRecord: 0.0ms | Allocations: 35007)
+
+
+Started GET "/client/" for 127.0.0.1 at 2020-12-13 21:49:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/client"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:49:48 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 7741)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:50:23 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 178)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1342ms (Views: 1341.1ms | ActiveRecord: 0.0ms | Allocations: 92183)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:50:40 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1350ms (Views: 1349.3ms | ActiveRecord: 0.0ms | Allocations: 89709)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:50:49 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1415ms (Views: 1413.4ms | ActiveRecord: 0.0ms | Allocations: 89324)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:50:51 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6933)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 21:50:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:50:58 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 39)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 6939)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:51:45 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1066)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2292)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", destroy_user_session_path %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home" root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", destroy_user_session_path %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home" root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/client/index.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/client/index.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/client/index.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/client/index.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+app/views/client/index.html.erb:13: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:51:54 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 210)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 8159)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 21:51:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 7990)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 21:52:17 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 8104)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:05:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:05:51 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 66)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 7132)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:05:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 8001)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:05:55 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 594)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4482)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 12.6ms | ActiveRecord: 2.0ms | Allocations: 17660)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:06:04 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"XUoYiarXbqQf8QtvHUqJvPObxd0t4eaW1l9f8VUb0xueHnnYlOc2wnk4woGOxnqyi2bOGYkbfKk4rRpBjZ4AvA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (1.1ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_created_at` = '2020-12-13 16:36:05', `users`.`updated_at` = '2020-12-13 16:36:05.077486' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 398ms (ActiveRecord: 3.3ms | Allocations: 121093)
+
+
+  
+NameError (undefined local variable or method `users_path' for #<Devise::SessionsController:0x00007f93b03cfa78>
+Did you mean?  user_session_path):
+  
+app/controllers/application_controller.rb:3:in `after_sign_in_path_for'
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:07:17 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"XUoYiarXbqQf8QtvHUqJvPObxd0t4eaW1l9f8VUb0xueHnnYlOc2wnk4woGOxnqyi2bOGYkbfKk4rRpBjZ4AvA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 357ms (ActiveRecord: 1.5ms | Allocations: 119286)
+
+
+  
+NameError (undefined local variable or method `client_index' for #<Devise::SessionsController:0x000000000516fa80>
+Did you mean?  client_index_url):
+  
+app/controllers/application_controller.rb:3:in `after_sign_in_path_for'
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:07:27 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"XUoYiarXbqQf8QtvHUqJvPObxd0t4eaW1l9f8VUb0xueHnnYlOc2wnk4woGOxnqyi2bOGYkbfKk4rRpBjZ4AvA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 224ms (ActiveRecord: 0.3ms | Allocations: 1908)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"XUoYiarXbqQf8QtvHUqJvPObxd0t4eaW1l9f8VUb0xueHnnYlOc2wnk4woGOxnqyi2bOGYkbfKk4rRpBjZ4AvA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 143)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 225ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8367)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:07:35 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"/eIvM+rzT4JUH1cVBxcUrf7S8RUZgE1mcaOLOZlZBPF3igHUWxGy0lH11WZNC9X6f7Sl6g8I37WYCclHLW3Q/w==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 357ms (ActiveRecord: 0.3ms | Allocations: 114789)
+
+
+  
+NameError (undefined local variable or method `client_index' for #<Devise::SessionsController:0x00007f93a40b9390>
+Did you mean?  client_index_url):
+  
+app/controllers/application_controller.rb:3:in `after_sign_in_path_for'
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:07:57 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"/eIvM+rzT4JUH1cVBxcUrf7S8RUZgE1mcaOLOZlZBPF3igHUWxGy0lH11WZNC9X6f7Sl6g8I37WYCclHLW3Q/w==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 238ms (ActiveRecord: 1.5ms | Allocations: 8556)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:07:57 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 66)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7162)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:08:04 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 7276)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:08:08 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms | Allocations: 1823)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:08:08 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 7015)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:08:17 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 7086)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:10:25 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 7122)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:14:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 422)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 8380)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:14:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 7113)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 22:14:47 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (Duration: 1.1ms | Allocations: 421)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 7461)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:14:48 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 418)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 7450)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 22:14:48 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered home/training.html.erb within layouts/application (Duration: 3.4ms | Allocations: 418)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 7458)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:14:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 0.0ms | Allocations: 7106)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 22:14:50 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered home/cloud.html.erb within layouts/application (Duration: 0.7ms | Allocations: 418)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 7459)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:14:51 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.0ms | Allocations: 7099)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:14:54 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 12ms (ActiveRecord: 2.0ms | Allocations: 6212)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:14:54 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 7790)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:15:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:15:03 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 6990)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:15:03 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6969)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:15:04 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 7106)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:15:07 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms | Allocations: 1837)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:15:07 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 7012)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:15:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:15:16 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6977)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:15:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 7097)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:19:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 7088)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 22:19:57 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered home/training.html.erb within layouts/application (Duration: 0.4ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 7096)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 22:19:57 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered home/cloud.html.erb within layouts/application (Duration: 0.6ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 7078)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 22:19:58 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (Duration: 1.1ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 7080)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:19:58 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7080)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:20:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7097)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:20:01 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1817)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:20:01 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7008)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-12-13 22:20:04 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms | Allocations: 1927)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:20:04 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 6997)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-12-13 22:20:08 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 22ms (ActiveRecord: 1.1ms | Allocations: 1849)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:20:08 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 7013)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:20:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:30:23 +0530
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:30:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:30:25 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1071)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2311)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", ('Logout', destroy_user_session_path, method: :delete) %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", ('Logout', destroy_user_session_path, method: :delete) %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home", root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:30:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 8206)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:30:31 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms | Allocations: 1823)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:30:31 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1055)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1534)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", ('Logout', destroy_user_session_path, method: :delete) %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", ('Logout', destroy_user_session_path, method: :delete) %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home", root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+app/views/client/index.html.erb:8: syntax error, unexpected ',', expecting ')'
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:31:09 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 1.0ms | Allocations: 1851)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:31:09 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 208)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8178)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:33:14 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 8006)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 22:33:16 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered home/training.html.erb within layouts/application (Duration: 3.8ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 7442)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 22:33:16 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered home/cloud.html.erb within layouts/application (Duration: 2.8ms | Allocations: 420)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 7454)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:33:17 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7101)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 22:33:18 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered home/cloud.html.erb within layouts/application (Duration: 0.5ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7072)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:33:19 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 3.2ms | Allocations: 419)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 7441)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 22:33:19 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered home/contact.html.erb within layouts/application (Duration: 3.0ms | Allocations: 418)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms | Allocations: 7453)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:33:23 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 7101)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:33:35 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 1819)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:33:35 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 7043)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:33:39 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:33:41 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 6978)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:33:43 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 7118)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:35:55 +0530
+  
+SyntaxError (/root/repos/rails-project/web/app/controllers/application_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/home_controller.rb:1:in `<main>'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:36:31 +0530
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 353)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 836ms (Views: 830.4ms | ActiveRecord: 0.0ms | Allocations: 31626)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:36:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 442)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 8037)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:36:38 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 1.8ms | Allocations: 8705)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:36:38 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 7034)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:36:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:37:29 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 66)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 7127)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:37:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 7264)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:37:36 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.3ms | Allocations: 422)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 7449)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-12-13 22:37:39 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 18ms (ActiveRecord: 2.1ms | Allocations: 6322)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:37:39 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 7027)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:37:42 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms | Allocations: 1946)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:37:42 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 59)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7007)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:45:28 +0530
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 48.8ms | ActiveRecord: 0.0ms | Allocations: 8385)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:45:30 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms | Allocations: 1835)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:45:30 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1069)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2168)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", destroy_user_session_path method:delete %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", destroy_user_session_path method:delete %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home", root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:46:04 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.8ms | Allocations: 1845)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:46:04 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1066)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2355)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", destroy_user_session_path method: :delete %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", destroy_user_session_path method: :delete %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home", root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:46:07 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1053)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1541)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", destroy_user_session_path method: :delete %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", destroy_user_session_path method: :delete %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home", root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:46:07 +0530
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1230)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1722)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="logout">
+		<%= link_to "Logout", destroy_user_session_path method: :delete %>
+	</div>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+
+	</div>
+
+
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="logout">
+8:    		<%= link_to "Logout", destroy_user_session_path method: :delete %>
+9:    	</div>
+10:    	<div class="navbar-client">
+11:    		<nav>
+12:    			<ul class="list-unstyled components">
+13:    			<li><%= link_to "Home", root_path %></li>
+14:    			<li>Services</li>
+15:    			<li>Labs</li>
+16:    			<li>Training</li>
+17:    			<li>Downloads</li>
+18:    			</ul>
+19:    		</nav>
+20:    
+21:    	</div>
+22:    
+23:    
+24:    <%yield%>
+25:    
+26:    </body>
+27:    </html>
+  
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/views/client/index.html.erb:8: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:46:56 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 223)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 8199)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:46:59 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lbXP9ZwzWyY6H50nG0uAR4W9CC9mDfWB19agqlo5eWvyZVutoeYoGY8vFWJXp7vvERl+zG0Zt3ua4ZuQ+NtGxQ=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_created_at` = NULL, `users`.`updated_at` = '2020-12-13 17:16:59.618540' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.8ms | Allocations: 6991)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:46:59 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 417)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 7999)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:47:04 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 594)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2860)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 11247)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:47:08 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"uoQLkT8CUBTiCqGQeaWcJPJ6p4kdvWH2fYuynqklsQvKQYRf7fDCukd37r/95EdNVhsu/P6KMu+gqnH+1jI8eA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 236ms (ActiveRecord: 0.4ms | Allocations: 4372)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:47:09 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6986)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:47:11 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"98JzwZRDi3BeYB3JpEGPr5AT07GDZlz1PPVtcyHCOq8i8sJdh3W8YlM7j1QvOssnLQ1wLqHvhe4RubcN5K4J+Q=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.5ms | Allocations: 2102)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:47:11 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 7101)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:47:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 163)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 7071)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:52:48 +0530
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 393)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 719)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 8675)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:52:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 172)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 7158)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:52:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 7146)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 22:52:50 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered home/training.html.erb within layouts/application (Duration: 0.7ms | Allocations: 423)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 7432)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:52:51 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 7140)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:53:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 390)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 709)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 8663)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:53:57 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 172)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 7163)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 22:53:58 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 172)
+  Rendered home/training.html.erb within layouts/application (Duration: 2.7ms | Allocations: 351)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 7367)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:53:59 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 7137)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 22:54:00 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 172)
+  Rendered home/cloud.html.erb within layouts/application (Duration: 1.4ms | Allocations: 351)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 7360)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:54:01 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 172)
+  Rendered home/about.html.erb within layouts/application (Duration: 2.6ms | Allocations: 348)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 7361)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 22:54:02 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 172)
+  Rendered home/contact.html.erb within layouts/application (Duration: 2.6ms | Allocations: 349)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 7353)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:54:03 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.9ms | Allocations: 511)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1839)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 10044)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-12-13 22:54:07 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 196)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 119)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1786)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 9556)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:54:12 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 8220)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:54:20 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"g88x6gHnXIj2dYzJSpDjhmAbPHTj0/jaAmAFENFXcq4lVIdoyIczKHo0dF43soSKPDg8uMZwLqDKVTGyJLiUZA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_created_at` = '2020-12-13 17:24:20', `users`.`updated_at` = '2020-12-13 17:24:20.316963' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 283ms (ActiveRecord: 2.0ms | Allocations: 8348)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:54:20 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 224)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 7771)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:54:24 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 172)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 7175)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:54:26 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 1.2ms | Allocations: 1817)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:54:27 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 7019)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:54:29 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GYrSMhhJ7hpzTEVYT9xmDANlb0xHJLRfOD81Ffr24SnWpuPnQMo7s2m0kTjMgW3jUytr3p7N8u2TEHxCwjJizA=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_created_at` = NULL, `users`.`updated_at` = '2020-12-13 17:24:29.336687' WHERE `users`.`id` = 1[0m
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 17ms (ActiveRecord: 7.4ms | Allocations: 6406)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:54:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 7150)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:54:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 7155)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:54:33 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 161)
+  Rendered home/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 7129)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:54:34 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1040)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 8227)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:54:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 7138)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:54:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 7133)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:58:12 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1159ms (Views: 1157.5ms | ActiveRecord: 0.0ms | Allocations: 61749)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 22:58:15 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 161)
+  Rendered home/contact.html.erb within layouts/application (Duration: 4.7ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 82ms (Views: 75.8ms | ActiveRecord: 0.0ms | Allocations: 7122)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:58:18 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.4ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.1ms | Allocations: 1031)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 40.0ms | ActiveRecord: 0.0ms | Allocations: 8196)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 22:58:23 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"aE+aUvlZwiibB/9pMLWyjhd1+UNKqCRMh1JBcDpmV7OAVWlqq5VKukuuBZ5f1iJJF0gCkYVIq9xVVYPrnh9MBA==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 239ms (ActiveRecord: 0.4ms | Allocations: 2668)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 22:58:23 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 71)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 6976)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 22:58:26 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WUq6qfjdQMvtfxWUekg+DEIPJJeUq+iRt06+Wrbiu0Yi5OTf9Cg6nuYQsi2r00jM5Iv3klNLWRtSL4xlD+AGDw=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.5ms | Allocations: 2106)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:58:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 7150)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:58:28 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 7135)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:58:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 7150)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 22:58:34 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 161)
+  Rendered home/training.html.erb within layouts/application (Duration: 0.7ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 7112)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 22:58:34 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 161)
+  Rendered home/cloud.html.erb within layouts/application (Duration: 1.9ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 7124)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 22:58:35 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 161)
+  Rendered home/about.html.erb within layouts/application (Duration: 2.0ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms | Allocations: 7119)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 22:58:35 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered home/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 7118)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 22:58:37 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 161)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 229)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms | Allocations: 7152)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:03:05 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1031)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 8191)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:07:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 1352)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1674)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2923)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<div class="navbar">
+	<nav>
+		<%= link_to "Home", root_path %> 
+		<%= link_to "Training", home_training_path %> 
+		<%= link_to "Cloud", home_cloud_path %> 
+		<%= link_to "About", home_about_path %> 
+		<%=	link_to "Contact", home_contact_path %>	
+	</nav>
+	<div class="login">
+		<%= if current_user %>
+	<%= link_to "Logout", destroy_user_session_path, method: :delete %>
+	
+	<% else %>
+		<%= link_to "Login", new_user_session_path %>
+		<%= link_to "Signup",  new_user_registration_path %>
+	</div>
+</div>	
+<%end%>
+):
+1:    
+2:    <div class="navbar">
+3:    	<nav>
+4:    		<%= link_to "Home", root_path %> 
+5:    		<%= link_to "Training", home_training_path %> 
+6:    		<%= link_to "Cloud", home_cloud_path %> 
+7:    		<%= link_to "About", home_about_path %> 
+8:    		<%=	link_to "Contact", home_contact_path %>	
+9:    	</nav>
+10:    	<div class="login">
+11:    		<%= if current_user %>
+12:    	<%= link_to "Logout", destroy_user_session_path, method: :delete %>
+13:    	
+14:    	<% else %>
+15:    		<%= link_to "Login", new_user_session_path %>
+16:    		<%= link_to "Signup",  new_user_registration_path %>
+17:    	</div>
+18:    </div>	
+19:    <%end%>
+  
+app/views/shared/_navbar.html.erb:11: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_navbar.html.erb:14: syntax error, unexpected `else', expecting ')'
+app/views/shared/_navbar.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:21: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:11: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_navbar.html.erb:14: syntax error, unexpected `else', expecting ')'
+app/views/shared/_navbar.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:21: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:11: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_navbar.html.erb:14: syntax error, unexpected `else', expecting ')'
+app/views/shared/_navbar.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:21: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:11: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_navbar.html.erb:14: syntax error, unexpected `else', expecting ')'
+app/views/shared/_navbar.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:21: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:11: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_navbar.html.erb:14: syntax error, unexpected `else', expecting ')'
+app/views/shared/_navbar.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:21: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:11: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/shared/_navbar.html.erb:14: syntax error, unexpected `else', expecting ')'
+app/views/shared/_navbar.html.erb:19: syntax error, unexpected `end', expecting ')'
+app/views/shared/_navbar.html.erb:21: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:08:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 531)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 850)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 8793)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:08:02 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 511)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1839)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 10034)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:08:08 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"bvrCLbp3Bfr9Gd7F5jfw28h/5u8MirOoEnpcqMP0Bk6oCsoXjyYxR6Z4knAwrnBeGB5970fABblYg4mlTgkuTg==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 261ms (ActiveRecord: 0.9ms | Allocations: 3732)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:08:09 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 221)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7758)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:08:10 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 5.3ms | Allocations: 1080)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1148)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.3ms | Allocations: 8068)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 23:08:16 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mDwdGnqOtJ3SbbgJYMX9l2E3neZ+jCriHF8jkukBHFD+YpbCgYtlIltZZWzdji1OeOerrBNNrsDPeXmIr7f+0A=="}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.9ms | Allocations: 2104)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:08:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 240)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 308)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7227)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:11 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 530)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 8792)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:12 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 250)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7215)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 238)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 7207)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:09:14 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 511)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1840)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 10027)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:22 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 525)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 844)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 8788)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:09:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 511)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1841)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 10036)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:09:29 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"GWgzCNL53n0Ko8lY0/OWvmBsVVC8HOcLn+XN53Hd7SDsKbQ7+huCQCMRdpbTE8+X2/hlYGxHyveLK0Tjxk7Ijw==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_created_at` = '2020-12-13 17:39:30', `users`.`updated_at` = '2020-12-13 17:39:30.128750' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 247ms (ActiveRecord: 2.1ms | Allocations: 8324)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:09:30 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 222)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 7772)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 4.7ms | Allocations: 1081)
+  Rendered home/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1150)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.6ms | Allocations: 8090)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 23:09:39 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"y3aCG8pluWyn/tpmdR+enP1s4knwfrTjtmM65kHCqeyfc54EjjfLFVSkSgO/nTkGeXMqLJHD7UMusg/HIh63NA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_created_at` = NULL, `users`.`updated_at` = '2020-12-13 17:39:39.668904' WHERE `users`.`id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.6ms | Allocations: 6404)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:39 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 240)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 308)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 7226)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:41 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 238)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 7219)
+
+
+Started GET "/home/training" for 127.0.0.1 at 2020-12-13 23:09:42 +0530
+Processing by HomeController#training as HTML
+  Rendering home/training.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 250)
+  Rendered home/training.html.erb within layouts/application (Duration: 3.1ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 7424)
+
+
+Started GET "/home/cloud" for 127.0.0.1 at 2020-12-13 23:09:43 +0530
+Processing by HomeController#cloud as HTML
+  Rendering home/cloud.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 250)
+  Rendered home/cloud.html.erb within layouts/application (Duration: 5.2ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 0.0ms | Allocations: 7438)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2020-12-13 23:09:43 +0530
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 250)
+  Rendered home/about.html.erb within layouts/application (Duration: 2.1ms | Allocations: 426)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 7428)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 23:09:44 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 250)
+  Rendered home/contact.html.erb within layouts/application (Duration: 2.7ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 7434)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:45 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 238)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 7232)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:09:47 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1041)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 8205)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-12-13 23:09:52 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 189)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 81)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1672)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 9429)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:09:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 250)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7224)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:11:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 525)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 844)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 8783)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:11:09 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 511)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1842)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 10063)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:11:14 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"L6ZqXN+c/17d6PMFmuItCyqChU5BrXbo/eBpo2eKkCbvOjY8587IdOgVClY4vRd8pcExlBfm+1r5VvBSvsFhGg==", "user"=>{"email"=>"ankitghana@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (5.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'ankitghana@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/client/index
+Completed 302 Found in 284ms (ActiveRecord: 5.8ms | Allocations: 3720)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:11:14 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 166)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 7690)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:11:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 1080)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1148)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.3ms | Allocations: 8056)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:11:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 1070)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1138)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.4ms | Allocations: 8044)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:11:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 5.9ms | Allocations: 1356)
+  Rendered home/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1676)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 0.6ms | Allocations: 9618)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:11:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 6.8ms | Allocations: 1081)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 1.4ms | Allocations: 8056)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:11:55 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 1070)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1138)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.4ms | Allocations: 8070)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:11:59 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1208)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.4ms | Allocations: 8729)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:12:27 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1128)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2350)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="navbar-client">
+		<nav>
+			<ul class="list-unstyled components">
+			<li><%= link_to "Home", root_path %></li>
+			<li>Services</li>
+			<li>Labs</li>
+			<li>Training</li>
+			<li>Downloads</li>
+			</ul>
+		</nav>
+	</div>
+	<div class="login">
+		<% if current_user %>
+	<%= link_to "Logout", destroy_user_session_path, method: :delete %>
+	
+	<% else %>
+		<%= link_to "Login", new_user_session_path %>
+		<%= link_to "Signup",  new_user_registration_path %>
+	</div>
+<%yield%>
+
+</body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:    <head>
+4:    	<title>Welcome</title>
+5:    </head>
+6:    <body>
+7:    	<div class="navbar-client">
+8:    		<nav>
+9:    			<ul class="list-unstyled components">
+10:    			<li><%= link_to "Home", root_path %></li>
+11:    			<li>Services</li>
+12:    			<li>Labs</li>
+13:    			<li>Training</li>
+14:    			<li>Downloads</li>
+15:    			</ul>
+16:    		</nav>
+17:    	</div>
+18:    	<div class="login">
+19:    		<% if current_user %>
+20:    	<%= link_to "Logout", destroy_user_session_path, method: :delete %>
+21:    	
+22:    	<% else %>
+23:    		<%= link_to "Login", new_user_session_path %>
+24:    		<%= link_to "Signup",  new_user_registration_path %>
+25:    	</div>
+26:    <%yield%>
+27:    
+28:    </body>
+29:    </html>
+  
+app/views/client/index.html.erb:32: syntax error, unexpected end-of-input, expecting `end'
+app/views/client/index.html.erb:32: syntax error, unexpected end-of-input, expecting `end'
+app/views/client/index.html.erb:32: syntax error, unexpected end-of-input, expecting `end'
+app/views/client/index.html.erb:32: syntax error, unexpected end-of-input, expecting `end'
+app/views/client/index.html.erb:32: syntax error, unexpected end-of-input, expecting `end'
+app/views/client/index.html.erb:32: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:13:05 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 3.0ms | Allocations: 1353)
+  Rendered client/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1717)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.4ms | Allocations: 9623)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:13:33 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 8.5ms | Allocations: 1079)
+  Rendered client/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1166)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1354ms (Views: 1351.7ms | ActiveRecord: 0.8ms | Allocations: 87279)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:14:04 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 4.9ms | Allocations: 1068)
+  Rendered client/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1358ms (Views: 1356.0ms | ActiveRecord: 0.4ms | Allocations: 88650)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:14:57 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 3.9ms | Allocations: 1068)
+  Rendered client/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1155)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1302ms (Views: 1300.5ms | ActiveRecord: 0.6ms | Allocations: 90835)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:15:15 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 170)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1306ms (Views: 1303.9ms | ActiveRecord: 0.0ms | Allocations: 90811)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:15:20 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 5.4ms | Allocations: 1356)
+  Rendered home/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1680)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.5ms | Allocations: 9244)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:15:22 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 8.7ms | Allocations: 1070)
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1138)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 1.0ms | Allocations: 8045)
+
+
+Started GET "/home/contact" for 127.0.0.1 at 2020-12-13 23:15:24 +0530
+Processing by HomeController#contact as HTML
+  Rendering home/contact.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 1079)
+  Rendered home/contact.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1255)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.6ms | Allocations: 8265)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:15:25 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/shared/_navbar.html.erb:11
+  Rendered shared/_navbar.html.erb (Duration: 6.6ms | Allocations: 1070)
+  Rendered home/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1158)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 19.6ms | ActiveRecord: 2.3ms | Allocations: 8077)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:15:30 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6940)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:13 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:9
+  Rendered client/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1205)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.3ms | Allocations: 9115)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:14 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:9
+  Rendered client/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 976)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.3ms | Allocations: 7875)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:15 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:9
+  Rendered client/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.6ms | Allocations: 7865)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:37 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:9
+  Rendered client/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1202)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 1.1ms | Allocations: 9113)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:38 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:9
+  Rendered client/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 976)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 7875)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:38 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:9
+  Rendered client/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.3ms | Allocations: 7873)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:57 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.3ms | Allocations: 9114)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:57 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 976)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 0.9ms | Allocations: 7891)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:58 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.3ms | Allocations: 7871)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:58 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.4ms | Allocations: 7869)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:16:58 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.8ms | Allocations: 7873)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:17:22 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1342ms (Views: 1340.2ms | ActiveRecord: 0.5ms | Allocations: 89817)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:17:46 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.7ms | Allocations: 9106)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:17:47 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 976)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.9ms | Allocations: 7887)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:17:47 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.6ms | Allocations: 7873)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:17:47 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.9ms | Allocations: 7876)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:18:02 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1171ms (Views: 1169.0ms | ActiveRecord: 0.8ms | Allocations: 62770)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:18:32 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1134ms (Views: 1130.6ms | ActiveRecord: 0.9ms | Allocations: 61502)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:18:34 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.8ms | Allocations: 7871)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:19:08 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1333ms (Views: 1332.1ms | ActiveRecord: 0.4ms | Allocations: 88270)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:19:45 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1204)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.3ms | Allocations: 9105)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:19:47 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 976)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 7881)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:20:06 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1325ms (Views: 1322.7ms | ActiveRecord: 0.7ms | Allocations: 88442)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:20:26 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1383ms (Views: 1379.9ms | ActiveRecord: 1.3ms | Allocations: 91542)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:20:29 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms | Allocations: 7877)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:20:30 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 26.7ms | ActiveRecord: 4.8ms | Allocations: 7868)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:20:30 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 7873)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:20:45 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1292ms (Views: 1291.3ms | ActiveRecord: 0.3ms | Allocations: 91503)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:21:04 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/client/index.html.erb:8
+  Rendered client/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 969)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1315ms (Views: 1313.3ms | ActiveRecord: 0.7ms | Allocations: 90705)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-12-13 23:21:13 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vth+095mByTb/D4zZFHTPeXpicffnRCRUB0spBUTvae/7YCOAYmi0BPfcrHdoIzRYNu0Up3yFaiKsQCwtrQ4sQ=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.7ms | Allocations: 2116)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:21:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 525)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 848)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 8426)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:21:17 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 7068)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:21:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 238)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 7209)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:22:05 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 238)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 7260)
+
+
+Started GET "/client/index" for 127.0.0.1 at 2020-12-13 23:22:12 +0530
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  Rendered client/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 156)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 7051)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-13 23:22:17 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.1ms | Allocations: 511)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 10.9ms | Allocations: 1840)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 10044)
+
+
+Started GET "/" for 127.0.0.1 at 2020-12-13 23:22:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 250)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 318)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms | Allocations: 7237)
+
+

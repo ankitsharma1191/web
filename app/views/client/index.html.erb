@@ -4,23 +4,27 @@
 	<title>Welcome</title>
 </head>
 <body>
-	<div>
-		<%= link_to "Logout", destroy_user_session_path %>
+	<div class="logout-client">
+		<% if current_user %>
+	<%= link_to "Logout", destroy_user_session_path, method: :delete %>
+	<% else %>
+		<%= link_to "Login", new_user_session_path %>
+		<%= link_to "Signup",  new_user_registration_path %>
+		<%end%>
 	</div>
+	
+	
 	<div class="navbar-client">
 		<nav>
 			<ul class="list-unstyled components">
-			<li>Home</li>
+			<li><%= link_to "Home", root_path %></li>
 			<li>Services</li>
 			<li>Labs</li>
 			<li>Training</li>
 			<li>Downloads</li>
 			</ul>
 		</nav>
-
 	</div>
-
-
 <%yield%>
 
 </body>
