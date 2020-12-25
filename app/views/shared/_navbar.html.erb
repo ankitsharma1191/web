@@ -10,6 +10,8 @@
 	<div class="login">
 		<% if current_user %>
 	<%= link_to "Logout", destroy_user_session_path, method: :delete %>
+		<%= link_to	"Dashboard", client_index_path %>
+
 	
 	<% else %>
 		<%= link_to "Login", new_user_session_path %>
